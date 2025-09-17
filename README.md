@@ -14,11 +14,15 @@ Exclusion Rules: Advanced features will allow users to specify certain URLs or t
 Error Handling: The tool will be designed to handle common issues like broken links (404 errors), redirects, and non-HTML files, providing a clear report to the user.
 
 Technical Stack
-Frontend: HTML, CSS, and JavaScript for the user interface.
+Frontend: React or Vue (with TypeScript) and modern styling frameworks.
 
-Backend: A server-side language like Python (with a framework like Flask or Django), Node.js (with Express), or PHP.
+Backend: Node.js with the Express.js framework, leveraging TypeScript for a structured server.
 
-Web Crawler Library: A library to handle the web crawling, such as BeautifulSoup or Scrapy in Python.
+Web Crawler Libraries: Libraries such as simplecrawler or puppeteer can be used with their TypeScript definitions to create a robust crawler.
+
+XML Library: A dedicated XML generation library like xml that works seamlessly with TypeScript.
+
+Deployment: The application can be containerized using Docker and deployed on a cloud platform like AWS, Google Cloud, or Vercel.
 
 Data Storage: A simple database (if necessary, for storing user sessions or crawl history) or simply an in-memory process to manage the crawling data.
 
